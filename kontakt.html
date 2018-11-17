@@ -102,6 +102,7 @@
 					console.log(submitURL);
 					$(this)[0].action=submitURL;
 					$('#input-feedback').text('Wiadomość wysłana. Dziękujemy!').css('color', 'black');
+					setTimeout(function() { window.location.replace("index.html"); }, 1000);
 				});
 			</script>  
 
